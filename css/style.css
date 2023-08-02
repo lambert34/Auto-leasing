@@ -6,6 +6,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    line-height: 1.3;
 }
 
 *, *::after, *::before{
@@ -70,5 +71,54 @@ a {
 }
 .main {
 }
+
+
+
+
+/* =======FOOTER ------------------------ */
+
 .footer {
+    background-color: #151515;
+    padding: 50px 0 32px;
+    color: #fff;
+
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.footer__menu-list {
+}
+.footer__menu-title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.footer__menu-item + .footer__menu-item {
+    padding-top: 20px;
+}
+.footer__menu-link {
+}
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app__item {
+}
+.app__item-link {
+}
+.footer__copy {
+}
+.footer__copy-text {
+}
+.copy__nav {
+}
+.copy__nav-list {
+}
+.copy__nav-item {
+}
+.copy__nav-link {
 }
