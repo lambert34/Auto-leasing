@@ -15,6 +15,11 @@ body {
     padding: 0;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 ul {
     list-style: none;
 }
@@ -31,6 +36,9 @@ a {
 
 
 .wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .header {
     background-color: #151515;
@@ -70,6 +78,7 @@ a {
     text-transform: uppercase;
 }
 .main {
+    flex-grow: 1;
 }
 
 
@@ -90,6 +99,7 @@ a {
     margin-bottom: 50px;
 }
 .footer__menu-list {
+    max-width: 250px;
 }
 .footer__menu-title {
     font-size: 24px;
@@ -105,20 +115,30 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;
+    margin-bottom: 52px;
 }
 .app__item {
 }
 .app__item-link {
 }
 .footer__copy {
+    min-width: 800px;
+    margin: 0 auto 30px;
+    text-align: center;
 }
 .footer__copy-text {
 }
 .copy__nav {
 }
 .copy__nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
-.copy__nav-item {
+
+.copy__nav-list {
 }
+
 .copy__nav-link {
 }
