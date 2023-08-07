@@ -298,3 +298,50 @@ a {
 .how__does-item + .how__does-item {
     margin-top: 40px;
 }
+
+/* ----------- VIDEO -_------------- */
+
+.video {
+    padding-bottom: 150px;
+}
+
+.video__title {
+    margin-bottom: 20px;
+}
+.video__text {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.video__content {
+    margin: 0 auto;
+    display: block;
+}
+
+/* ----------- Important ------------ */
+
+.important {
+    margin-bottom: 150px;
+}
+.important__title {
+    padding-bottom: 20px;
+}
+.important__text {
+    padding-bottom: 50px;
+    max-width: 580px;
+    text-align: center;
+    margin: 0 auto;
+}
+.important__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.important__item {
+}
+.important__item-img {
+    padding-bottom: 20px;
+}
+.important__item-text {
+}
