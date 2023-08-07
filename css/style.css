@@ -3,13 +3,15 @@ html {
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.3;
 }
 
-*, *::after, *::before{
+*,
+*::after,
+*::before {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
@@ -28,12 +30,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
-
-
-
-
-
 
 .wrapper {
     min-height: 100%;
@@ -85,16 +81,12 @@ a {
     flex-grow: 1;
 }
 
-
-
-
 /* =======FOOTER ------------------------ */
 
 .footer {
     background-color: #151515;
     padding: 50px 0 32px;
     color: #fff;
-
 }
 
 .footer__menu {
@@ -147,7 +139,6 @@ a {
 .copy__nav-link {
 }
 
-
 /* ------------ Section-index------------- */
 
 .top {
@@ -177,24 +168,21 @@ a {
     font-weight: 700;
 }
 
-
 /* ----------Slider ------------ */
 
 .slider {
 }
 .swiper::after {
-    content: '';
+    content: "";
     position: absolute;
-    background: rgba(21, 21, 21, .3);
+    background: rgba(21, 21, 21, 0.3);
     z-index: 5;
     left: 0;
     right: 0;
     bottom: 0;
     top: 0;
-
 }
 .swiper-wrapper {
-
 }
 .swiper-slide {
     height: 100vh;
@@ -222,4 +210,36 @@ a {
     height: 6px;
     background-color: #fff;
     border-radius: 0;
+}
+
+/* ---------- Section Why Lease -------------- */
+
+.why-lease {
+    margin: 150px 0;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.why-lease__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    text-align: center;
+}
+.why-lease__item {
+}
+.why-lease__item-icon {
+    padding-bottom: 30px;
+}
+.why-lease__item-title {
+    padding-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.why-lease__item-text {
+    
 }
