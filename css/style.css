@@ -420,7 +420,6 @@ a {
     margin: 0 auto;
 }
 
-
 /* -------blog ------------- */
 
 .blog {
@@ -453,7 +452,7 @@ a {
     padding: 4px 20.5px;
 }
 
-.blog__link {
+.showmore-link {
     text-transform: uppercase;
     background-color: #151515;
     color: #fff;
@@ -463,4 +462,78 @@ a {
     padding: 13px 60px;
     max-width: 223px;
     margin: 0 auto;
+}
+
+/* -----------Choose ------------ */
+
+.choose {
+    margin: 100px 0 150px;
+}
+
+.section-title {
+}
+.tabs {
+}
+.tabs__btn {
+    margin: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-bottom: 100px;
+}
+.tabs__btn-item {
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.tabs__btn-item--active {
+    color: #0066ff;
+}
+
+.tabs__content--item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px 40px;
+}
+
+.tabs__content--item.tabs__content-item--active {
+    display: grid;
+}
+.card {
+    text-align: center;
+}
+.card__img {
+    padding-bottom: 20px;
+}
+
+.card__content {
+    /* margin: 0 5px; */
+    border: 1px solid #0066ff;
+}
+
+.card__title {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.card__text {
+    padding-bottom: 20px;
+}
+.card__price {
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.card__link {
+    display: block;
+    color: #0066ff;
+    border: 1px solid #0066ff;
+    border-top: 0;
+}
+.showmore-link {
 }
